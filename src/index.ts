@@ -9,3 +9,5 @@ export { currentUser } from './middlewares/currentUser'
 export { errorHandler } from './middlewares/errorHandler'
 export { requireAuth } from './middlewares/requireAuth'
 export { validateRequest } from './middlewares/validateRequest'
+
+export * from './events'
