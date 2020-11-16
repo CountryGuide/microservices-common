@@ -5,3 +5,5 @@ export { Subjects } from './subjects/subjects'
 
 export { TicketCreatedEvent } from './tickets/TicketCreatedEvents'
 export { TicketUpdatedEvent } from './tickets/TicketUpdatedEvent'
+
+export { OrderStatus } from './types/OrderStatus'
