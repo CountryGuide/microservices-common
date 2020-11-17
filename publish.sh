@@ -1,5 +1,3 @@
-git add .
-git commit -m "commit"
 npm version patch
 npm run build
 npm publish
