@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
-import { NotAuthorizedError } from '../errors/NotAuthorizedError'
+import { NotAuthorizedError } from '..'
 
 export function requireAuth(req: Request, res: Response, next: NextFunction) {
   if (!req.currentUser) {
