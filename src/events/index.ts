@@ -6,4 +6,7 @@ export { Subjects } from './subjects/subjects'
 export { TicketCreatedEvent } from './tickets/TicketCreatedEvents'
 export { TicketUpdatedEvent } from './tickets/TicketUpdatedEvent'
 
+export { OrderCreatedEvent } from './orders/OrderCreatedEvent'
+export { OrderCancelledEvent } from './orders/OrderCancelledEvent'
+
 export { OrderStatus } from './types/OrderStatus'
