@@ -17,6 +17,7 @@ export abstract class BasePublisher<T extends Event> {
         if (err) {
           return reject(err)
         }
+        console.log(`[Event][Published]: ${this.subject}`)
 
         resolve()
       })

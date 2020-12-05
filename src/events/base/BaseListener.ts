@@ -29,7 +29,7 @@ export abstract class BaseListener<T extends Event> {
     const subscription = this.client.subscribe(this.subject, this.queueGroupName, this.subscriptionOptions())
 
     subscription.on('message', (msg: Message) => {
-      console.log(`Message received: ${this.subject} | ${this.queueGroupName}`)
+      console.log(`[Message][Received]: ${this.subject} | ${this.queueGroupName}`)
 
       this.onMessage(this.parseMessage(msg), msg)
     })
