@@ -11,4 +11,6 @@ export { OrderCancelledEvent } from './orders/OrderCancelledEvent'
 
 export { ExpirationCompleteEvent } from './expiration/ExpirationCompleteEvent'
 
+export { PaymentCreatedEvent } from './payments/PaymentCreatedEvent'
+
 export { OrderStatus } from './types/OrderStatus'
